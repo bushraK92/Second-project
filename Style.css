@@ -1,0 +1,242 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(Roboto/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Rob';
+    src: url(Roboto/Roboto-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Rob';
+    src: url(Roboto/Roboto-LightItalic.ttf) format('truetype');
+    font-weight: light;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    margin: 0 auto;
+    width: 1000px;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    background-color:#1F2937;
+}
+ header a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+    cursor: pointer;
+}
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+menu li a:hover{
+    color: #0088a9;
+}
+.sections{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    background-color:#1F2937 ;
+}
+.content{
+    width: 60%;
+    padding: 0px 0px; 
+}
+.content h1{
+    font-size: 48px;
+    font-family: 'Rob';
+    font-weight: bold;
+    float: left;
+    color: #f9faf8;
+}
+.content p{
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+.image{
+    width:50%;
+    float: right;
+    padding: 0px 30px;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+}
+button{
+   color:#e5e7eb;
+   background-color:#3882F6;
+   border-radius: 10px;
+   padding: 10px 25px;
+   border: 1px solid #3882F6;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ h2{
+    padding-top: 36px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Rob';
+    font-weight: bold;
+    color:#1F2937
+}
+.one{
+    width: 200px;
+    height: 170px;
+    margin:10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    text-align: center;
+    cursor: pointer;
+}
+.two{
+    width: 200px;
+    height: 170px;
+    margin:20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    text-align: center;
+    cursor: pointer;
+   }
+.three{
+    width: 200px;
+    height: 170px;
+    margin:20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    text-align: center;
+    cursor: pointer;
+   }
+.four{
+    width: 200px;
+    height: 170px;
+    margin:20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    text-align: center;
+    cursor: pointer;
+   }
+.p1{
+    padding: 70px 0;
+    text-align: center;
+   }
+.one:hover{
+    color: red;
+    border: 4px solid red;
+    transform: scale(1.1);
+   }
+.two:hover{
+     color:orange;
+     border :4px solid orange;
+     transform: scale(1.1);
+   }
+.three:hover{
+      color:purple;
+      border: 4px solid purple;
+      transform: scale(1.1);
+   }
+.four:hover{
+       color: green;
+       border:4px solid green;
+       transform: scale(1.1);
+   }
+.quote{
+        background-color: #e5e7eb;
+        width: 100%;
+        height: 300px;
+        align-items: center;
+    }
+.box{
+        padding: 100px 0;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Rob';
+        font-weight: light;
+        color: #1F2937;
+     }
+.call-actionbox{
+        background-color:#3882F6;
+        width:auto;
+        height: 100px;
+        border-radius: 10px;
+        padding-left:30px; 
+        margin: 30px;
+     }
+.call-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+     }
+.call-box nav{
+        width: 60%;
+        margin: 10px;
+        margin-left: 30px;
+        color: #e5e7eb; 
+        padding-top: 15px;
+    }
+.call-box nav p {
+        font-family: 'rob';
+        font-weight: light;
+    }
+.call-box button{
+        margin-right: 30px;
+        border: 1px solid #e5e7eb;
+        cursor: pointer;
+    }
+footer{
+        background-color:#1F2937;
+        color: #e5e7eb;
+        height: 75px;
+     }
+footer h4{
+        text-align: center;
+        padding-top: 40px;
+     }
+     cite{
+        padding: 70px 0px;
+        font-size: 15px;
+        float: right;
+     }
+@media screen and (max-width:1200px) {
+    .wrapper{
+        padding: 80px;
+    }
+}
